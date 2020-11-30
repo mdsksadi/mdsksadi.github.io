@@ -1,0 +1,520 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400&family=Oxygen&family=Roboto&family=Ubuntu&display=swap');
+
+/* 
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Oxygen', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+
+* {
+    font-family: 'Fira Sans', sans-serif;
+    color: #111111;
+}
+
+body{
+    margin: 2%;
+    display: block;
+    background-color: white;
+}
+.home img {
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+    margin-left: 40%;
+    margin-top: 5%;
+    border: 4px solid #777777;
+}
+.name {color: #252525;text-align: center;font-size: 40px}
+.social-media{
+    display: flex;
+    justify-content: center;
+}
+a {
+    display: flex;
+    border: 2px solid #000;
+    height: 75px;
+    width: 75px;
+    margin: 0 15px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15) -6px -6px 10px -1px rgba(255,255,255,0.7);
+}
+a i{
+    font-size: 35px;
+    color: #777777;
+}
+a:hover{
+    box-shadow: inset   4px 4px 6px -1px rgba(0,0,0,0.2),
+        inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+        -0.5px -0.5px 0px rgba(255,255,255,15),
+        0px 12px 10px -10px rgba(0,0,0,0.05);
+    color: aqua;
+}
+.header {
+    color: white;
+    text-align: center;
+    background-color: #777777;
+    margin-top: 2%;
+    font-size: 40px;
+    border-radius: 10px
+}
+.about-me p {
+    color: black;
+    justify-content: center;
+    font-size: 16px;
+    text-align: justify;
+    padding: 2%;
+    line-height: 24px;
+}
+/* .myskills h2{color: black;text-align: center;background-color: #777777;margin-top: 2%;font-size: 40px;border-radius: 10px} */
+.myskills h3{color: aliceblue;}
+.skillitem{display: flex;}
+.header2 {
+    color: white;
+    text-align: center;
+    background-color: #444444;
+}
+.jhuilaase {
+    background: #777777;
+    width: 4px;
+    height: 54px;
+    position: absolute;
+    margin-top: -33px;
+    right: 26%;
+}
+.jhuilaase1 {
+    background: #777777;
+    width: 4px;
+    height: 54px;
+    position: absolute;
+    margin-top: -33px;
+    left: 26%;
+}
+/* .programming h4{color: black;text-align: center;background-color: aquamarine;}
+.software h4{color: black;text-align: center;background-color: aquamarine; } */
+.software{margin-left: 0;width: 50%;border-radius: 10px}
+.programming{margin-left: 0;width: 50%;border-radius: 10px}
+.gallery{color: black;text-align: center;background-color: #777777;margin-top: 2%;font-size: 30px;border-radius: 10px;}
+
+.bar {
+    background: linear-gradient(45deg, #9eceff, transparent);
+    display: block;
+    height: 10px;
+    border: 1px solid darkcyan;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.list-type-none {
+    list-style-type: none;
+}
+
+h3.bar-text {
+    color: #000;
+}
+
+.bar span{
+    height: 100%;
+    float: left;
+    background: darkcyan;
+}
+.html{ width: 90%;animation: html 3s;}
+.css{ width: 60%;animation: css 3s;}
+.arduino{width: 50%;animation: arduino 3s;}
+.latex{width: 50%;animation: latex 3s;}
+.c{width: 80%;animation: c 3s;}
+.python{width: 65%;animation: python 3s;}
+.javascript{width: 50%;animation: javascript 3s}
+.raspie{width: 40%; animation: raspie 3s}
+
+@keyframes html {
+    0%{
+        width: 0%
+    }
+    100%{width: 90%}
+}
+@keyframes css {
+    0%{
+        width: 0%
+    }
+    100%{width: 60%}
+}@keyframes arduino {
+    0%{
+        width: 0%
+    }
+    100%{width: 50%}
+}@keyframes c {
+    0%{
+        width: 0%
+    }
+    100%{width: 80%}
+}
+@keyframes latex {
+    0%{
+        width: 0%;
+    }
+    100% {width: 50%;}
+}
+@keyframes python {
+    0%{
+        width: 0%
+    }
+    100%{width: 65%}
+}@keyframes javascript {
+    0%{
+        width: 0%
+    }
+    100%{width: 50%}
+}
+@keyframes raspie {
+    0%{
+        width: 0%
+    }
+    100%{width: 40%}
+}
+
+.matlab{ width: 90%;animation: matlab 3s;}
+.autocad{ width: 60%;animation: autocad 3s;}
+.office{width: 90%;animation: office 3s;}
+.silvaco{width: 80%;animation: silvaco 3s;}
+.pspice{width: 90%;animation: pspice 3s;}
+.microwind{width: 75%;animation: microwind 3s;}
+@keyframes matlab {
+    0%{
+        width: 0%
+    }
+    100%{width: 90%}
+}
+@keyframes autocad {
+    0%{
+        width: 0%
+    }
+    100%{width: 60%}
+}@keyframes office {
+    0%{
+        width: 0%
+    }
+    100%{width: 90%}
+}@keyframes silvaco {
+    0%{
+        width: 0%
+    }
+    100%{width: 80%}
+}
+@keyframes pspice{
+    0%{
+        width: 0%
+    }
+    100%{width: 90%}
+}
+@keyframes microwind{
+    0%{
+        width: 0%
+    }
+    100%{width: 75%}
+}
+
+/* .experience h2{color: black;text-align: center;background-color: #777777;margin-top: 2%;font-size: 40px;border-radius: 10px} */
+
+.jobs{
+    position: relative;
+    margin: 1% auto;
+    width: 100%;
+}
+.jobs:before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    width: 3px;
+    height: 100%;
+        background: #777777;
+}
+.jobs ul{
+    margin: 0;
+    padding: 0;
+}
+.jobs ul li{
+    list-style: none;
+    line-height: normal;
+    position: relative;
+    width: 50%;
+    padding: 20px 40px;
+    box-sizing: border-box;
+}
+.jobs ul li:nth-child(odd)
+{
+    float: left;
+    text-align: right;
+    clear: both;
+}
+.jobs ul li:nth-child(even)
+{
+    float: right;
+    text-align: left;
+    clear: both;
+}
+.jobs ul li:nth-child(odd):before
+{
+    content: '';
+    position:absolute;
+    top: 24px;
+    right: -6px;
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 10%;
+    box-shadow: 0 0 0 3px white;
+}
+.jobs ul li:nth-child(even):before
+{
+    content: '';
+    position: absolute;
+    top: 24px;
+    left: -4px;
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 10%;
+    box-shadow: 0 0 0 3px white;
+}
+.jobs ul li h3{
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    color: #777777;
+    font-size: 35px;
+}
+.jobs ul li p
+{
+    margin: 10px 0 0;
+    padding: 0;
+    font-size: 20px;
+}
+.jobs ul li:nth-child(odd)
+.time
+{
+    position: absolute;
+    top: 12px;
+    right: -210px;
+    margin: 0;
+    font-size: 20px;
+    padding: 4px 4px;
+        background: none;
+    color: #fff;
+    border-radius: 50px;
+     box-shadow: 0 0 0 3px gray;
+}
+.jobs ul li:nth-child(even)
+.time
+{
+    position: absolute;
+    top: 12px;
+    left: -250px;
+    font-size: 20px;
+    margin: 0;
+    padding: 4px 4px;
+    background: none;
+    color: #fff;
+        border-radius: 50px;
+    box-shadow: 0 0 0 3px gray;
+
+}
+.jobs ul li:nth-child(odd)
+.ttime
+{
+    position: absolute;
+    top: 30px;
+    right: -110px;
+    margin: 0;
+    font-size: 20px;
+    padding: 4px 4px;
+        background: none;
+    color: #fff;
+    border-radius: 10px;
+     box-shadow: 0 0 0 3px gray;
+}
+.jobs ul li:nth-child(even)
+.ttime
+{
+    position: absolute;
+    top: 30px;
+    left: -110px;
+    font-size: 20px;
+    margin: 0;
+    padding: 4px 4px;
+    background: none;
+    color: #fff;
+        border-radius: 10px;
+    box-shadow: 0 0 0 3px gray;
+
+}
+
+.content p{
+    color: black;
+}
+.justify{text-align: justify;}
+/* .education h2{color: black;text-align: center;background-color: #777777;margin-top: 2%;font-size: 40px;border-radius: 10px}
+.research h2{color: black;text-align: center;background-color: #777777;margin-top: 2%;font-size: 40px;border-radius: 10px}
+.projects h2{color: black;text-align: center;background-color: #777777;margin-top: 2%;font-size: 40px;border-radius: 10px}
+.contact-me h2{color: black;text-align: center;background-color: #777777;margin-top: 2%;font-size: 40px;border-radius: 10px} */
+/* .achievement h2{color: black;text-align: center;background-color: #777777;margin-top: 2%;font-size: 40px;border-radius: 10px} */
+.scolarship{
+    position: relative;
+    margin: 1% auto;
+    padding: 0px 0;
+    width: 100%;
+}
+.scolarship:before{
+    content: '';
+    position: absolute;
+    left: 5%;
+    width: 3px;
+    height: 100%;
+    background: #777777;
+}
+.scolarship ul{
+    margin: 0;
+    padding: 0;
+}
+.scolarship ul li{
+    list-style: none;
+    line-height: normal;
+    position: relative;
+    width: 100%;
+    padding: 0px 40px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+.scontent h3 
+{
+    margin-left: 50px;
+    font-size: 40px;
+}
+.scontent p
+{
+    margin-left: 48px;
+    color: black;
+    font-size: 20px;
+}
+.ieee img{
+    display: flex;
+    background: black;
+    height: 50px;
+    width: 50px;
+    margin: 20px 15px;
+    border-radius: 50%;
+    align-items: center;
+    text-decoration: none;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15)
+        -6px -6px 10px -1px #777777;
+    border: 2px solid #777777;
+        
+}
+.ieee img i{
+    font-size: 35px;
+    color: #777777;
+}
+.ieee img:hover{
+    box-shadow: inset   4px 4px 6px -1px #777777,
+    inset -4px -4px 6px -1px rgba(200,200,200,0),
+        -0.5px -0.5px 0px rgba(255,255,255,15),
+        0px 12px 10px -10px rgba(0,0,0,0.05);
+    color: red;}
+.achievement h3{color: aliceblue}
+.scolarship h3{color: aliceblue}
+.contact-page{
+    width: 100%;
+    max-width: 1200px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contact-page h2{
+    width: 100%;
+    margin-bottom: 80px;
+    text-transform: uppercase;
+    color: #777777;
+    font-size: 60px;
+}
+.contact-info, .contact-form{
+    flex: auto;
+    float: left;
+}
+.item{
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #112222;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    line-height: 60px;
+    background-color: transparent;
+    color:#fff;
+    border-radius: 50%;
+    text-align: center;
+}
+.contact-form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    float: right;
+    
+}
+.textb{
+    width: calc(50% - 10px);
+    height: 40px;
+    padding: 10px;
+    background-color: #222;
+    border: none;
+    color: #fff;
+    margin-bottom: 15px;
+}
+textarea{
+    width: 100%;
+    height: 200px;
+    min-height: 200px;
+    max-height: 400px;
+    resize: vertical;
+    padding: 11px;
+    background-color: #222;
+    border: none;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.btn{
+    width: 120px;
+    height: 40px;
+    margin-left: auto;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 2px solid #222;
+    transition: .3s linear;
+}
+.btn:hover{
+    background-color: #222;
+    color: black;
+}
+.gal{
+    border: 2px solid #777777;
+    margin: 2%;
+    justify-content: center;
+    border-radius: 10px;
+    height: 270px;
+    width: 330px;
+}
+.gal:hover{
+    height: 300px;
+    width: 400px;
+}
+.images{
+    padding-left: 5%
+}
